@@ -9,6 +9,9 @@
     
     <p>Hello, <strong><%= request.getParameter("name") %></strong>! Thank you for submitting the form.</p>
     
-    <p><a href="index.jsp">Go back to the main page</a></p>
+    <p><a href="https://www.google.co.il/">Click here to google page</a></p>
+	
+	<p><a href="index.jsp">Go back to the main page</a></p>
+
 </body>
 </html>
