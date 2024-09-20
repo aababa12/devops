@@ -10,7 +10,8 @@
     <!-- Form with input text box and a button -->
     <form action="result.jsp" method="POST">
         <label for="name">Enter your name:</label>
-        <input type="text" id="name" name="name" required>
+        <!-- Only letters (both uppercase and lowercase) and spaces are allowed -->
+        <input type="text" id="name" name="name" pattern="[A-Za-z\s]+" title="Please enter letters only." required>
         <button type="submit">Submit</button>
     </form>
 
