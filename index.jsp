@@ -30,7 +30,7 @@
     
     <!-- Form with input text box and a button -->
     <form action="result.jsp" method="POST" onsubmit="return validateForm()">
-        <label for="name">Enter your name:</label>
+        <label for="name">Enter your name,please:</label>
         <input type="text" id="name" name="name" required>
         <button type="submit">Submit</button>
         <p id="error-message" class="error-message">Please enter a valid name (letters only).</p>
